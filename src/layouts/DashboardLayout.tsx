@@ -42,7 +42,7 @@ export const DashboardLayout: React.FC<LayoutProps> = ({ children }) => {
       }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '3rem' }}>
           <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <img src="/logo.png" alt="DW Logo" style={{ height: '24px', width: 'auto' }} />
+            <img src="https://a.storyblok.com/f/165398/5126x3396/22352559c9/dw_drums_logo_white_safe.jpg" alt="DW Logo" style={{ height: '24px', width: 'auto' }} />
             <span style={{ fontWeight: 800, fontSize: '1.1rem', letterSpacing: '0.1em', color: 'white', textTransform: 'uppercase' }}>Academy</span>
           </Link>
 
@@ -83,7 +83,7 @@ export const DashboardLayout: React.FC<LayoutProps> = ({ children }) => {
             />
           </div>
 
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
             <button style={{ background: 'transparent', color: 'var(--text-secondary)' }}><Bell size={20} /></button>
             <button style={{ background: 'transparent', color: 'var(--text-secondary)' }}><Settings size={20} /></button>
             <div 

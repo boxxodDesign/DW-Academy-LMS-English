@@ -46,7 +46,7 @@ export const Login: React.FC = () => {
             width: '120px',
             margin: '0 auto 1.5rem',
            }}>
-             <img src="/logo.png" alt="DW Drums Logo" style={{ width: '100%', height: 'auto', display: 'block' }} />
+             <img src="https://a.storyblok.com/f/165398/5126x3396/22352559c9/dw_drums_logo_white_safe.jpg" alt="DW Drums Logo" style={{ width: '100%', height: 'auto', display: 'block' }} />
            </div>
            <h1 style={{ fontSize: '1.25rem', letterSpacing: '0.2em', textTransform: 'uppercase', color: 'white', fontWeight: 900 }}>Academy</h1>
            <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', marginTop: '0.5rem', letterSpacing: '0.05em' }}>PREMIUM SALES TRAINING</p>
