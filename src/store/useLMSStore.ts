@@ -34,7 +34,7 @@ const initialCourses: Course[] = [
     id: 'c1',
     titulo: '9000 Series: Professional Engineering',
     descripcion: 'The flagship hardware of DW Drums. Master the technical specifications, adjustments, and maintenance of the industry-standard 9000 series pedals and stands.',
-    imagen_caratula: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&w=1200&q=80',
+    imagen_caratula: 'https://drumcenternh.com/cdn/shop/products/dw9000tourpack.jpg?v=1695221894',
     status: 'Available',
     modules: [
       {
