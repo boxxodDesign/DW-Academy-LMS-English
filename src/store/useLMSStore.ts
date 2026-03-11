@@ -112,7 +112,7 @@ const initialCourses: Course[] = [
     id: 'c2',
     titulo: '5000 Series: The Industry Standard',
     descripcion: 'Used by professionals worldwide. Learn the legendary durability and patented features of the 5000 Series pedals and stands.',
-    imagen_caratula: 'https://thumbs.static-thomann.de/thumb//bdbmagic/pics/prod/282816.jpg',
+    imagen_caratula: 'https://cdn.shopify.com/s/files/1/0621/5027/9317/files/DWCP5000PK1.jpg?v=1747697329',
     status: 'Available',
     modules: [
       {
