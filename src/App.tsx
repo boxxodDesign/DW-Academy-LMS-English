@@ -8,6 +8,8 @@ import { CoursePlayer } from './pages/CoursePlayer';
 import { CourseBuilder } from './pages/CourseBuilder';
 import { InstructorDashboard } from './pages/InstructorDashboard';
 import { AdminUsers } from './pages/AdminUsers';
+import { Inventory } from './pages/Inventory';
+import { Support } from './pages/Support';
 
 export const App: React.FC = () => {
   return (
@@ -57,6 +59,24 @@ export const App: React.FC = () => {
           element={
             <AuthGuard allowedRoles={['Instructor', 'Admin']}>
               <InstructorDashboard />
+            </AuthGuard>
+          } 
+        />
+
+        <Route 
+          path="/inventory" 
+          element={
+            <AuthGuard allowedRoles={['Admin']}>
+              <Inventory />
+            </AuthGuard>
+          } 
+        />
+
+        <Route 
+          path="/support" 
+          element={
+            <AuthGuard allowedRoles={['Admin', 'Salesperson']}>
+              <Support />
             </AuthGuard>
           } 
         />
